@@ -232,4 +232,25 @@ header .podt {
 .bash {
   padding-top: 70px;
 }
+
+.bash .tekst1 {
+  margin-top: 30px;
+}
+
+.bash img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bash .kod {
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 120px;
+  background-color: grey;
+  padding: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
 /*# sourceMappingURL=styles.css.map */
