@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Prezentacja o fish shell</title>
-    <link rel="stylesheet" href=styles.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <nav>
@@ -14,29 +14,19 @@
         <li class="item2"><a href="#cele">Główne cele</a></li>
         <li class="item3"><a href="#coto">Czym jest fish?</a></li>
         <li class="item4"><a href="#first">Pierwszy raz z fish'em</a></li>
-        <li class="item5"><a href="#udog">Udogodnienia</a></li>
-        <li class="item6">
-          <a href="#bash">Różnice ze standardowym bashem</a>
-        </li>
+        <li class="item5"><a href="#bash">Różnice i udogodnienia</a></li>
         <li class="item6"><a href="#bibl">bibliografia</a></li>
       </ul>
     </nav>
     <header>
       <div class="main">Fish 🐟</div>
-      <div class="podt">
-        Przyjazna użytkownikowi powłoka
-        <div>
-          Rybo-powłoka to bardzo ciekawy dodatek dla użytkowników klasycznego
-          BASH'a pozwalający na nowo zakochać się w zabawie z terminalem albo
-          wyraźnie usprawnić korzystanie z niego!
-        </div>
-      </div>
+      <div class="podt">Przyjazna użytkownikowi powłoka</div>
     </header>
     <div class="hist">
-      <a id="hist"
-        >Friendly Interactive SHell, w skrócie fish. Tak jak sama nazwa
-        wskazuje, fish został stworzony aby być "pzyjaźniejszą" użytkownikowi
-        powłoką.<br /><br />
+      <a id="hist"> HISTORIA POWSTANIA FISHA </a>
+      <div>
+        Friendly Interactive SHell, w skrócie fish. Tak jak sama nazwa wskazuje,
+        powłoka została stworzona aby być bardziej przyjazną użytkownikowi.<br /><br />
         Pierwsze wydanie zostało wypuszczone 13 Lutego 2005 przez Axel
         Liljencrantz, z początku głównego dewelopera narzędzia. W marcu 2009
         roku została wypuszczona ostatnia wersja 1.x. Pod koniec 2011 roku osoba
@@ -44,12 +34,12 @@
         narzędziem, które zaskutkowały wypuszczeniem wersji beta narzędzia pod
         nazwą "fishfish". Narzędzie to korzystało z poprzednich wersji fish'a i
         ostatecznie stało się fish'em 2.0, który został wydany 1 września 2013.
-      </a>
+      </div>
     </div>
 
     <div class="cele">
       <a id="cele">
-        Główne cele powłoki fish:
+        GŁÓWNE WARTOŚCI I CELE POWŁOKI FISH:
         <ul>
           <li>
             Wszystko co może być wykonane w innych powłokach powinno być możliwe
@@ -85,19 +75,78 @@
     </div>
 
     <div class="coto">
-      <a id="coto">
-        <div></div>
-      </a>
+      <a id="coto"> CZYM TAK NAPRAWDĘ JEST FISH? </a>
+      <div>
+        Fish to w pełni wyposażona powłoka wiersza poleceń (jak bash lub zsh),
+        która jest inteligentna i przyjazna dla użytkownika. Fish obsługuje
+        zaawansowane funkcje, takie jak podświetlanie składni, autosugestie i
+        uzupełnianie kart, które po prostu działają, bez konieczności uczenia
+        się lub konfigurowania ich. Jeśli chcesz, aby Twój wiersz poleceń był
+        bardziej produktywny, użyteczny i zabawniejszy, bez uczenia się mnóstwa
+        tajemnej składni i opcji konfiguracyjnych, to fish może być właśnie tym,
+        czego szukasz!<br />
+        Jako alternatywa do basha czy zsh, fish to nowy terminal pełen kolorów
+        ułatwiających rozumienie występujących procesów. "Rybka" to wsparcie dla
+        każdego, nie zależnie od poziomu zaawansowania. To sufler, który
+        podpowiada zapomniane kwestie podczas spektaklu kodowania. To kolega z
+        ławki, który zawsze da ściągnąć od siebie przykład i jeszcze weźmie na
+        siebie odpowiedzialność za błędy przy pracy. To nauczyciel, który pokaże
+        błędy i rozwiązania. To prosty w obsłudze język, przy którym wszystko
+        rozwiązywane jest za pomocą komend, a nie skomplikowanej i trudnej do
+        zapamiętania składni. Podsumowując, to przyszłość i wyciągnięcie ręki w
+        kierunku programistów.
+      </div>
     </div>
 
     <div class="first">
-      <a id="first"> </a>
-    </div>
-    <div class="udog">
-      <a id="udog"> </a>
+      <a id="first"> POCZĄTKI Z FISHEM </a>
+      <div class="start">
+        Rozpoczęcie przygody z fishem jest bardzo, bardzo proste! Strona domowa
+        powłoki, na której znajdują się też poradniki i pliki instalacyjne,
+        pełna jest wiedzy.<br />
+      </div>
+      <a class="pato" href="https://fishshell.com">fishshell.com</a><br />
+      <div class="tekst">
+        Fish'a można zainstalować na praktycznie każdym systemie, nawet na
+        emulatorze windowsowym WSL
+      </div>
+      <img src="assets/systemy.jpg" alt="systemy instalacyjne" />
+      <div class="tekst">Po zainstalowaniu narzędzia "włączamy" je komendą</div>
+      <div class="kod">fish</div>
+      <div class="tekst">
+        a jej wykonanie może odnotować dzięki wyświetlanemu komunikatowi a także
+        zmianie znaku zachęty. Natomiast komendą
+      </div>
+      <div class="kod">exit</div>
+      <div class="tekst">wracamy spowrotem do bazowej powłoki</div>
+      <img src="assets/odpalanie.gif" alt="odpalanie.gif" />
+      <div class="tekst">
+        <br />
+        Po zainstalowaniu powłoki warto doinstalować jeszcze framework OMF,
+        czyli Oh-My-Fish. Pozwoli on na dodatkową customizacje terminala, na
+        przykład instalacje nakładek wyglądowych.
+        <br /><br />Cała instalacja polega na wpisaniu poniższych komend, w tej
+        samej kolejności.
+      </div>
+      <br />
+      <div class="kod1">sudo apt install curl</div>
+      <br />
+      <div class="kod1">curl -L https://get.oh-my.fish | fish</div>
+      <br />
+      <div class="tekst">
+        Po zainstalowaniu OMF, instalacja nakładek polega na wpisaniu komendy
+      </div>
+      <br />
+      <div class="kod1">omf install {nazwa nakładki}</div>
+      <br />
+      <div class="tekst">
+        i wybraniu konkretnej nakładki, którą chcemy zainstalować
+      </div>
+      <img src="assets/omf.gif" alt="omf.gif" />
     </div>
     <div class="bash">
-      <a id="bash"> </a>
+      <a id="bash"> RÓŻNICE I UDOGODNIENIA</a>
+      <div class="tekst"></div>
     </div>
     <div class="bibl">
       <a id="bibl"> </a>

@@ -1,0 +1,235 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 1rem;
+}
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: azure;
+}
+
+nav {
+  height: 100px;
+  width: 100vw;
+  border-bottom: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: lightcyan;
+}
+
+nav ul {
+  padding: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+nav ul li {
+  border: 1px solid black;
+  background-color: #8bcfe6;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+nav ul a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+nav ul a:hover {
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+header {
+  width: 100vw;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 40%;
+  width: 100%;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+header .podt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60%;
+  width: 100%;
+  font-size: 3rem;
+}
+
+.hist,
+.cele,
+.coto,
+.first,
+.bash,
+.bilbiografia {
+  margin-left: 50px;
+  margin-right: 50px;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+#hist {
+  margin-top: 70px;
+  font-size: 1.6rem;
+}
+
+.hist {
+  padding-top: 70px;
+}
+
+.hist div {
+  margin-top: 30px;
+}
+
+#cele {
+  font-size: 1.6rem;
+}
+
+.cele {
+  margin-top: 70px;
+}
+
+.cele ul {
+  margin-top: 30px;
+  list-style-type: "🐟";
+}
+
+.cele ul li {
+  margin-top: 10px;
+}
+
+#coto {
+  font-size: 1.6rem;
+}
+
+.coto {
+  margin-top: 70px;
+}
+
+.coto div {
+  margin-top: 30px;
+}
+
+#first {
+  font-size: 1.6rem;
+}
+
+.first {
+  margin-top: 30px;
+  padding-top: 70px;
+}
+
+.first .start {
+  margin-top: 30px;
+}
+
+.first .pato {
+  font-weight: bold;
+  color: Blue;
+  text-decoration: none;
+}
+
+.first .tekst {
+  margin-top: 30px;
+}
+
+.first .kod {
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+  background-color: grey;
+  padding: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.first .kod1 {
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 400px;
+  background-color: grey;
+  padding: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.first img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#bash {
+  font-size: 1.6rem;
+}
+
+.bash {
+  padding-top: 70px;
+}
+/*# sourceMappingURL=styles.css.map */
