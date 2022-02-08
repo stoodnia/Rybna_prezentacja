@@ -124,7 +124,7 @@ header .podt {
 .coto,
 .first,
 .bash,
-.bilbiografia {
+.bibl {
   margin-left: 50px;
   margin-right: 50px;
   letter-spacing: 1px;
@@ -259,11 +259,11 @@ header .podt {
 }
 
 .bibl {
+  margin-bottom: 80px;
   padding-top: 70px;
 }
 
 .bibl .tekst {
-  padding-left: 50px;
   margin-top: 30px;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -27,13 +27,14 @@
       <div>
         Friendly Interactive SHell, w skrócie fish. Tak jak sama nazwa wskazuje,
         powłoka została stworzona aby być bardziej przyjazną użytkownikowi.<br /><br />
-        Pierwsze wydanie zostało wypuszczone 13 Lutego 2005 przez Axel
-        Liljencrantz, z początku głównego dewelopera narzędzia. W marcu 2009
-        roku została wypuszczona ostatnia wersja 1.x. Pod koniec 2011 roku osoba
-        przedstawiająca się nicknameme "ridiculousfish" dołączyła do prac nad
-        narzędziem, które zaskutkowały wypuszczeniem wersji beta narzędzia pod
-        nazwą "fishfish". Narzędzie to korzystało z poprzednich wersji fish'a i
-        ostatecznie stało się fish'em 2.0, który został wydany 1 września 2013.
+        Pierwsze wydanie zostało wypuszczone 13 Lutego 2005 przez Axel'a
+        Liljencrantz'a, z początku głównego dewelopera powłoki. W marcu 2009
+        roku została wypuszczona ostatnia wersja, numerowana w sposób 1.x. Pod
+        koniec 2011 roku osoba przedstawiająca się jako "ridiculousfish"
+        dołączyła do prac nad narzędziem, które zaskutkowały wypuszczeniem
+        wersji beta narzędzia pod nazwą "fishfish". Narzędzie to korzystało z
+        poprzednich wersji fish'a i ostatecznie stało się fish'em 2.0, który
+        został wydany 1 września 2013.
       </div>
     </div>
 
@@ -63,7 +64,7 @@
             Każdy błąd składniowy, bądź błąd przy wbudowanym poleceniu powinien
             generować wiadomość błędu zawierającą opis co konkretnie poszło źle
             oraz odpowiednią stronę z pomocą. Zawsze kiedy to możliwe błędy
-            powinny być wyróżnione poprzez czerwoną kolor.
+            powinny być wyróżnione poprzez czerwony kolor czcionki.
           </li>
           <li>
             Język powinien być spójny, aby użytkownik po zrozumieniu składni
@@ -84,7 +85,7 @@
         się lub konfigurowania ich. Jeśli chcesz, aby Twój wiersz poleceń był
         bardziej produktywny, użyteczny i zabawniejszy, bez uczenia się mnóstwa
         tajemnej składni i opcji konfiguracyjnych, to fish może być właśnie tym,
-        czego szukasz!<br />
+        czego szukasz!<br /><br />
         Jako alternatywa do basha czy zsh, fish to nowy terminal pełen kolorów
         ułatwiających rozumienie występujących procesów. "Rybka" to wsparcie dla
         każdego, nie zależnie od poziomu zaawansowania. To sufler, który
@@ -103,19 +104,22 @@
       <div class="start">
         Rozpoczęcie przygody z fishem jest bardzo, bardzo proste! Strona domowa
         powłoki, na której znajdują się też poradniki i pliki instalacyjne,
-        pełna jest wiedzy.<br />
+        pełna jest wiedzy i wyjaśnień, dzięki którym szybko zaczniemy korzystać
+        z powłoki.<br />
       </div>
       <a class="pato" href="https://fishshell.com">fishshell.com</a><br />
       <div class="tekst">
         Fish'a można zainstalować na praktycznie każdym systemie, nawet na
-        emulatorze windowsowym WSL
+        emulatorze windowsowym WSL.
       </div>
       <img src="assets/systemy.jpg" alt="systemy instalacyjne" />
-      <div class="tekst">Po zainstalowaniu narzędzia "włączamy" je komendą</div>
+      <div class="tekst">
+        Po zainstalowaniu narzędzia "włączamy" je komendą:
+      </div>
       <div class="kod">fish</div>
       <div class="tekst">
         a jej wykonanie może odnotować dzięki wyświetlanemu komunikatowi a także
-        zmianie znaku zachęty. Natomiast komendą
+        zmianie znaku zachęty. Natomiast komendą:
       </div>
       <div class="kod">exit</div>
       <div class="tekst">wracamy spowrotem do bazowej powłoki</div>
@@ -125,8 +129,8 @@
         Po zainstalowaniu powłoki warto doinstalować jeszcze framework OMF,
         czyli Oh-My-Fish. Pozwoli on na dodatkową customizacje terminala, na
         przykład instalacje nakładek wyglądowych.
-        <br /><br />Cała instalacja polega na wpisaniu poniższych komend, w tej
-        samej kolejności.
+        <br /><br />Cała instalacja polega na wpisaniu poniższych komend, w
+        podanej kolejności.
       </div>
       <br />
       <div class="kod1">sudo apt install curl</div>
@@ -134,13 +138,13 @@
       <div class="kod1">curl -L https://get.oh-my.fish | fish</div>
       <br />
       <div class="tekst">
-        Po zainstalowaniu OMF, instalacja nakładek polega na wpisaniu komendy
+        Po zainstalowaniu OMF, instalacja nakładek polega na wpisaniu komendy:
       </div>
       <br />
       <div class="kod1">omf install {nazwa nakładki}</div>
       <br />
       <div class="tekst">
-        i wybraniu konkretnej nakładki, którą chcemy zainstalować
+        i wybraniu konkretnej nakładki, którą chcemy zainstalować.
       </div>
       <img src="assets/omf.gif" alt="omf.gif" />
     </div>
@@ -157,10 +161,10 @@
       </div>
       <img src="assets/if.gif" alt="if.gif" />
       <div class="tekst">
-        Jak można było zauważyć na powyższej animacji, słowa „then” oraz „fi”
-        podświetlane były na czerwono, co sygnalizowało błąd. Dodatkową
-        dogodnością było automatyczne formatowanie wpisywanego tekstu, co
-        również widać powyżej.
+        Jak można było zauważyć na powyższej animacji, słowo „then” (a to
+        zajdzie przy „fi”) podświetlone było na czerwono, co sygnalizowało błąd.
+        Dodatkową dogodnością było automatyczne formatowanie wpisywanego tekstu,
+        co również widać powyżej.
       </div>
       <br />
       <div class="tekst">
@@ -171,7 +175,7 @@
       <div class="tekst">
         zostanie otwarta strona w przeglądarce na której dokonujemy zmian w
         wyglądzie i funkcjonowaniu naszego terminala. Mamy możliwość ustawienia
-        aliasów a także sprawdzenia historii komend. A wszystko jak na tacy
+        aliasów a także sprawdzenia historii komend. A wszystko, jak na tacy,
         podane pod jedną komendą!
       </div>
       <img src="assets/config.jpg" alt="config" />
